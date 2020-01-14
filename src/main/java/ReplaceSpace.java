@@ -1,7 +1,12 @@
 public class ReplaceSpace {
+    /**
+     * 题目：请实现一个函数，将一个字符串中的每个空格替换成“%20”。
+     * 例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
+     * @param args
+     */
 
     public static void main(String args[]){
-        StringBuffer str = new StringBuffer("We Are Happy");
+       StringBuffer str = new StringBuffer("We Are Happy");
         System.out.println(replaceSpace(str));
     }
 
@@ -43,4 +48,6 @@ public class ReplaceSpace {
      * 解法三：开辟一个新的字符串，遇到空格就换成添加“%20”
      * 调用string 的append 方法
      */
+
+
 }

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReplaceSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReplaceSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReplaceSpace.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,53 +18,60 @@
     <session id="1153416622">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="7" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="7" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1344" />
+          <entry key="java" value="1983" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1344" />
+          <entry key="JAVA" value="1983" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReplaceSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="190">
+              <caret line="10" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PrintListFromTailToHead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="657" selection-start-line="657" selection-end-line="657" />
+            <state relative-caret-position="266">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#162#171#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,6 +94,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/TwoDimensionalArrayForSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReplaceSpace.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/PrintListFromTailToHead.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrintListFromTailToHead.java" />
       </list>
     </option>
   </component>
@@ -115,6 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,20 +158,23 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578882618998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578990266129" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceSpace">
+  <component name="RunManager" selected="JUnit.PrintListFromTailToHead.main">
     <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReplaceSpace" />
       <module name="CountingToOffer" />
@@ -187,12 +203,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintListFromTailToHead.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CountingToOffer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrintListFromTailToHead" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TwoDimensionalArrayForSearch" />
       <item itemvalue="Application.ReplaceSpace" />
+      <item itemvalue="JUnit.PrintListFromTailToHead.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrintListFromTailToHead.main" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.TwoDimensionalArrayForSearch" />
       </list>
@@ -210,18 +238,49 @@
       <updated>1578797607177</updated>
       <workItem from="1578797610359" duration="8719000" />
       <workItem from="1578810580230" duration="1633000" />
-      <workItem from="1578877405567" duration="2985000" />
+      <workItem from="1578877405567" duration="3610000" />
+      <workItem from="1578926692940" duration="841000" />
+      <workItem from="1578964811062" duration="7684000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 24m 50s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 25m 04s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 25m 45s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 27m 55s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 28m 51s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 29m 06s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 29m 15s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 39m 21s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintListFromTailToHead_main - 2020.01.14 at 15h 40m 34s.xml">
+      <configuration name="PrintListFromTailToHead.main" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13337000" />
+    <option name="totallyTimeSpent" value="22487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26596606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -231,14 +290,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.120781526" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26950353" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23801066" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.39253998" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.57015985" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.8138298" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
@@ -274,15 +333,35 @@
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="11666">
           <caret line="657" selection-start-line="657" selection-end-line="657" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReplaceSpace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="190">
+          <caret line="10" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/PrintListFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrintListFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#162#171#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
