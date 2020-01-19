@@ -16,7 +16,8 @@ public class JumpTheFloor2 {
      *  f(n-1) = f(0) + f(1) + f(2) + f(3) + ... + f(n-2)
      *  所以 f(n) = f(n-1) + f(n-1) = 2*f(n-1)
      *  所以最终结论：
-     *f(n) =  1   ,(n=1 )
+     *f(n) = 1 ,(n=0)
+     * 1   ,(n=1 )
      *  2*f(n-1),(n>=2)
      * @param number
      * @return
