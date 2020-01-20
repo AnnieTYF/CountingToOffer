@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinaryNumberOfOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinaryNumberOfOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JumpTheFloor2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JumpTheFloor2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,37 +16,37 @@
     <session id="1153416622">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="18" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="18" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5349" />
+          <entry key="java" value="5470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5349" />
+          <entry key="JAVA" value="5470" />
         </counts>
       </usages-collector>
     </session>
@@ -56,19 +54,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JumpTheFloor2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryNumberOfOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="5" selection-start-line="41" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BinaryNumberOfOne.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CalculationForPower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="171">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -101,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/main/java/JumpTheFloor2.java" />
         <option value="$PROJECT_DIR$/src/main/java/RectangleCover.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinaryNumberOfOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CalculationForPower.java" />
       </list>
     </option>
   </component>
@@ -131,9 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,12 +161,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579438221247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579492993763" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -193,9 +192,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryNumberOfOne">
+  <component name="RunManager" selected="Application.CalculationForPower">
     <configuration name="BinaryNumberOfOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryNumberOfOne" />
+      <module name="CountingToOffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculationForPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalculationForPower" />
       <module name="CountingToOffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,13 +221,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReplaceSpace" />
-      <module name="CountingToOffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrintListFromTailToHead.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CountingToOffer" />
       <option name="PACKAGE_NAME" value="" />
@@ -233,19 +232,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="JUnit.PrintListFromTailToHead.main" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.JumpTheFloor2" />
       <item itemvalue="Application.BinaryNumberOfOne" />
+      <item itemvalue="Application.CalculationForPower" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculationForPower" />
         <item itemvalue="Application.BinaryNumberOfOne" />
         <item itemvalue="Application.JumpTheFloor2" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="JUnit.PrintListFromTailToHead.main" />
-        <item itemvalue="Application.ReplaceSpace" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +268,8 @@
       <workItem from="1579227938404" duration="3595000" />
       <workItem from="1579309655971" duration="4150000" />
       <workItem from="1579395894242" duration="8663000" />
-      <workItem from="1579437115709" duration="1103000" />
+      <workItem from="1579437115709" duration="1483000" />
+      <workItem from="1579482221809" duration="5548000" />
     </task>
     <servers />
   </component>
@@ -303,13 +303,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53515000" />
+    <option name="totallyTimeSpent" value="59443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2934519" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29830235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -319,12 +319,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5328597" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21492007" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5204263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.08703375" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.294849" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -439,8 +439,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryNumberOfOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="643" column="27" selection-start-line="643" selection-start-column="27" selection-end-line="643" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="631" column="35" selection-start-line="631" selection-start-column="35" selection-end-line="631" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CalculationForPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
         </state>
       </provider>
     </entry>
