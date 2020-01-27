@@ -74,10 +74,22 @@ public class PrintOutMatrix {
     }
 
 
-    /*
+    /**
      * 解法二：
      * 采用旋转魔方的方式 一次取一行，然后旋转
-     */
+     * 例如
+     * 1 2 3
+     * 4 5 6
+     * 7 8 9
+     * 输出并删除第一行后，变为
+     * 4 5 6
+     * 7 8 9
+     * 再进行一次逆时针旋转，就变成：
+     * 6 9
+     * 5 8
+     * 4 7
+     * 继续重复上述操作即可。
+     **/
     public static  ArrayList<Integer> printMatrix_2(int[][] matrix) {
         ArrayList<Integer> al = new ArrayList<>();
         int row = matrix.length;
