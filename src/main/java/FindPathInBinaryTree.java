@@ -66,6 +66,8 @@ public class FindPathInBinaryTree {
         ArrayList<Integer> cur=new ArrayList<>();
 
         helper(root,target,cur,res);
+        //这里可以用lambda简化一下代码，不过这样好像运行时间会增加，挺多的
+        //Collections.sort(res, (o1,o2)->o2.size()-o1.size());
         Collections.sort(res, new Comparator<ArrayList<Integer>>() {
             @Override
             public int compare(ArrayList<Integer> o1, ArrayList<Integer> o2) {
