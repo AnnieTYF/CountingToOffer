@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class MirrorTree {
     /**
      * 操作给定的二叉树，将其变换为源二叉树的镜像。
@@ -31,4 +33,28 @@ public class MirrorTree {
             Mirror(root.right);
             Mirror(root.left);
         }
+
+    /**
+     * 非递归解法,栈，当然也可以用队列实现
+     */
+    public void Mirror2(TreeNode root) {
+        if(root == null){
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.push(root);
+        while(!stack.empty()){
+            TreeNode node = stack.pop();
+            TreeNode temp;
+            temp = node.right;
+            node.right = node.left;
+            node.left = temp;
+            if(node.left != null){
+                stack.push(node.left);
+            }
+            if(node.right != null){
+                stack.push(node.right);
+            }
+        }
+    }
 }
