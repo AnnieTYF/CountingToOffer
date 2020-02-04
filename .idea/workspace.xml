@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,24 +31,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="57" />
+          <entry key="java" value="58" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="58" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14183" />
+          <entry key="java" value="14479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14183" />
+          <entry key="JAVA" value="14479" />
         </counts>
       </usages-collector>
     </session>
@@ -58,19 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UglyNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="72" column="5" selection-start-line="70" selection-start-column="3" selection-end-line="72" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FirstUnrepeatedChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="208">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,14 +67,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FirstCommonNodeList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="688">
+              <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
               <folding>
                 <element signature="e#181#182#0" expanded="true" />
                 <element signature="e#219#220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CountKInArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/main/java/FirstUnrepeatedChar.java" />
         <option value="$PROJECT_DIR$/src/main/java/InversePairsInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/FirstCommonNodeList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CountKInArray.java" />
       </list>
     </option>
   </component>
@@ -161,7 +163,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1395" />
@@ -212,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580790919104" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580793157309" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -237,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InversePairsInArray">
+  <component name="RunManager" selected="Application.CountKInArray">
     <configuration name="AppendToMinNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppendToMinNum" />
       <module name="CountingToOffer" />
@@ -245,8 +247,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountOf1" />
+    <configuration name="CountKInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountKInArray" />
       <module name="CountingToOffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,19 +276,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountOf1" />
       <item itemvalue="Application.AppendToMinNum" />
       <item itemvalue="Application.UglyNumber" />
       <item itemvalue="Application.FirstUnrepeatedChar" />
       <item itemvalue="Application.InversePairsInArray" />
+      <item itemvalue="Application.CountKInArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountKInArray" />
         <item itemvalue="Application.InversePairsInArray" />
         <item itemvalue="Application.FirstUnrepeatedChar" />
         <item itemvalue="Application.UglyNumber" />
         <item itemvalue="Application.AppendToMinNum" />
-        <item itemvalue="Application.CountOf1" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +329,7 @@
       <workItem from="1580517747642" duration="10419000" />
       <workItem from="1580605717071" duration="6390000" />
       <workItem from="1580694222749" duration="8447000" />
-      <workItem from="1580778566835" duration="4395000" />
+      <workItem from="1580778566835" duration="6416000" />
     </task>
     <servers />
   </component>
@@ -361,10 +363,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160703000" />
+    <option name="totallyTimeSpent" value="162724000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38722715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -376,12 +379,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5133215" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48490232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25044405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5133215" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38010657" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -750,23 +753,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FirstCommonNodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="85" column="47" lean-forward="true" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FirstUnrepeatedChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="208">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FirstCommonNodeList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CountKInArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
           <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
