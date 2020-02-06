@@ -75,4 +75,6 @@ public class IsBalancedBST {
         return right > left ? right+1:left+1;
     }
 
+    //其实吧。。我觉得还是要好好考虑一下这个
+
 }
