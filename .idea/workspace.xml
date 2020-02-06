@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsBalancedBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IsBalancedBST.java" afterDir="false" />
-    </list>
+    <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,42 +32,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="65" />
+          <entry key="java" value="66" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="65" />
+          <entry key="JAVA" value="66" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15653" />
+          <entry key="java" value="16146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15653" />
+          <entry key="JAVA" value="16146" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CountKInArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="120" column="5" lean-forward="true" selection-start-line="117" selection-start-column="3" selection-end-line="120" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/IsBalancedBST.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,14 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FindNumbersAppearOnce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+            <state relative-caret-position="364">
+              <caret line="97" column="5" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FindContinuousSequenceForN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -150,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/main/java/BinaryTreeDepth.java" />
         <option value="$PROJECT_DIR$/src/main/java/IsBalancedBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindNumbersAppearOnce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FindContinuousSequenceForN.java" />
       </list>
     </option>
   </component>
@@ -166,7 +161,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1395" />
@@ -217,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580958554331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580968411845" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -242,9 +237,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindNumbersAppearOnce">
+  <component name="RunManager" selected="Application.FindContinuousSequenceForN">
     <configuration name="CountKInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountKInArray" />
+      <module name="CountingToOffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindContinuousSequenceForN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindContinuousSequenceForN" />
       <module name="CountingToOffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,27 +273,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UglyNumber" />
-      <module name="CountingToOffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.UglyNumber" />
       <item itemvalue="Application.FirstUnrepeatedChar" />
       <item itemvalue="Application.InversePairsInArray" />
       <item itemvalue="Application.CountKInArray" />
       <item itemvalue="Application.FindNumbersAppearOnce" />
+      <item itemvalue="Application.FindContinuousSequenceForN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindContinuousSequenceForN" />
         <item itemvalue="Application.FindNumbersAppearOnce" />
         <item itemvalue="Application.CountKInArray" />
         <item itemvalue="Application.InversePairsInArray" />
         <item itemvalue="Application.FirstUnrepeatedChar" />
-        <item itemvalue="Application.UglyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +330,7 @@
       <workItem from="1580778566835" duration="7144000" />
       <workItem from="1580813234587" duration="599000" />
       <workItem from="1580864362645" duration="8312000" />
-      <workItem from="1580950483040" duration="6205000" />
+      <workItem from="1580950483040" duration="8447000" />
     </task>
     <servers />
   </component>
@@ -369,7 +364,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178568000" />
+    <option name="totallyTimeSpent" value="180810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -385,12 +380,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4831261" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.056838367" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22912966" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35523978" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.58259326" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42984015" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -784,11 +779,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FindNumbersAppearOnce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        <state relative-caret-position="364">
+          <caret line="97" column="5" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindContinuousSequenceForN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
