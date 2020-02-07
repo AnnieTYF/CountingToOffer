@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 public class FindContinuousSequenceForN {
     /**
@@ -36,9 +38,11 @@ public class FindContinuousSequenceForN {
               array.add(list);
                 //注意这里，相等后，要移动窗口
                 low++;
+            //如果当前窗口内的值之和小于sum，那么右边窗口右移一下//
             }else if(cur < sum){
                 high++;
             }else{
+                //如果当前窗口内的值之和大于sum，那么左边窗口右移一下
                 low++;
             }
         }
@@ -47,4 +51,6 @@ public class FindContinuousSequenceForN {
     public static void main(String args[]){
         System.out.println(FindContinuousSequence(100));
     }
+
+
 }
