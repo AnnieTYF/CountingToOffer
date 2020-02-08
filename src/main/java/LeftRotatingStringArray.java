@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.LinkedList;
+
 public class LeftRotatingStringArray {
     /**
      * 汇编语言中有一种移位指令叫做循环左移（ROL），用字符串模拟这个指令的运算结果。
@@ -52,6 +55,5 @@ public class LeftRotatingStringArray {
     public static void main(String args[]){
         String str = "abcdefg";
         System.out.println(LeftRotateString2( str,3));
-
     }
 }
