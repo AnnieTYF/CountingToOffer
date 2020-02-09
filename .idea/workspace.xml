@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeftRotatingStringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeftRotatingStringArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +17,11 @@
     <session id="1153416622">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="6" />
           <entry key="project.open.time.24" value="4" />
-          <entry key="project.open.time.25" value="7" />
+          <entry key="project.open.time.25" value="8" />
           <entry key="project.open.time.26" value="4" />
           <entry key="project.open.time.27" value="4" />
           <entry key="project.open.time.28" value="2" />
@@ -28,30 +29,31 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="82" />
+          <entry key="java" value="84" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="82" />
+          <entry key="JAVA" value="84" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18014" />
+          <entry key="java" value="18407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18014" />
+          <entry key="JAVA" value="18407" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeftRotatingStringArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,20 +81,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IsPokerContinuous.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ReverseSentences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="273">
+              <caret line="90" column="5" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="90" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ReverseSentences.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LastRemainingNumInCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            <state relative-caret-position="304">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1044#1053#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,6 +126,8 @@
       <find>private static class Node&lt;E&gt;</find>
       <find>hash</find>
       <find>append</find>
+      <find>(n - 1) &amp; hash</find>
+      <find>resize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,9 +181,10 @@
         <option value="$PROJECT_DIR$/src/main/java/FindNumbersAppearOnce.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindContinuousSequenceForN.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindNumsSumS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LeftRotatingStringArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReverseSentences.java" />
         <option value="$PROJECT_DIR$/src/main/java/IsPokerContinuous.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeftRotatingStringArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LastRemainingNumInCircle.java" />
       </list>
     </option>
   </component>
@@ -205,9 +214,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581139940873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581215083729" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -267,14 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsPokerContinuous">
-    <configuration name="FindContinuousSequenceForN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindContinuousSequenceForN" />
-      <module name="CountingToOffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LastRemainingNumInCircle">
     <configuration name="FindNumsSumS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindNumsSumS" />
       <module name="CountingToOffer" />
@@ -284,6 +286,13 @@
     </configuration>
     <configuration name="IsPokerContinuous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsPokerContinuous" />
+      <module name="CountingToOffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastRemainingNumInCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LastRemainingNumInCircle" />
       <module name="CountingToOffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,19 +313,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindContinuousSequenceForN" />
       <item itemvalue="Application.FindNumsSumS" />
       <item itemvalue="Application.LeftRotatingStringArray" />
       <item itemvalue="Application.ReverseSentences" />
       <item itemvalue="Application.IsPokerContinuous" />
+      <item itemvalue="Application.LastRemainingNumInCircle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastRemainingNumInCircle" />
         <item itemvalue="Application.IsPokerContinuous" />
         <item itemvalue="Application.ReverseSentences" />
         <item itemvalue="Application.LeftRotatingStringArray" />
         <item itemvalue="Application.FindNumsSumS" />
-        <item itemvalue="Application.FindContinuousSequenceForN" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +372,9 @@
       <workItem from="1580950483040" duration="8877000" />
       <workItem from="1580982990061" duration="5263000" />
       <workItem from="1581035843910" duration="13890000" />
-      <workItem from="1581124115582" duration="5687000" />
+      <workItem from="1581124115582" duration="7030000" />
+      <workItem from="1581163153341" duration="2508000" />
+      <workItem from="1581209442282" duration="3561000" />
     </task>
     <servers />
   </component>
@@ -397,13 +408,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206080000" />
+    <option name="totallyTimeSpent" value="213492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42764753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27647534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,12 +424,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33570158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11190053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4991119" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6500888" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5062167" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -484,13 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="631" column="35" selection-start-line="631" selection-start-column="35" selection-end-line="631" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TwoStacksQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -597,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,9 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="120" column="5" lean-forward="true" selection-start-line="117" selection-start-column="3" selection-end-line="120" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1824">
           <caret line="97" column="5" selection-start-line="92" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,9 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,20 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="332" column="69" lean-forward="true" selection-start-line="332" selection-start-column="69" selection-end-line="332" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IsBalancedBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FindNumsSumS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
@@ -845,27 +814,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseSentences.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/IsPokerContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        <state relative-caret-position="380">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="679" column="31" lean-forward="true" selection-start-line="679" selection-start-column="31" selection-end-line="679" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IsBalancedBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeftRotatingStringArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="254">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IsPokerContinuous.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReverseSentences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="273">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="87" selection-start-column="2" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LastRemainingNumInCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1044#1053#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

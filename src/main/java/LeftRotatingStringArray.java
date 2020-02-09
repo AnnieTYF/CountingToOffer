@@ -55,5 +55,6 @@ public class LeftRotatingStringArray {
     public static void main(String args[]){
         String str = "abcdefg";
         System.out.println(LeftRotateString2( str,3));
+       HashMap map = new HashMap<>();
     }
 }
