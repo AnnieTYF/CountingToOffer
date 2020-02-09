@@ -14,4 +14,4 @@
 1. [反转单词序列](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/ReverseSentences.java)
 1. [扑克牌顺子](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/IsPokerContinuous.java)
 1. [圆圈中最后剩下的数——约瑟夫环问题](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/LastRemainingNumInCircle.java)
-1. [求1+2+3+...+n 短路求值实现递归]https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/LastRemainingNumInCircle.java()
+1. [求1+2+3+...+n 短路求值实现递归](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/LastRemainingNumInCircle.java)
