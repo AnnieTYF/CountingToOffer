@@ -13,3 +13,4 @@
 1. [左旋转字符串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/LeftRotatingStringArray.java)
 1. [反转单词序列](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/ReverseSentences.java)
 1. [扑克牌顺子](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/IsPokerContinuous.java)
+1. [圆圈中最后剩下的数——约瑟夫环问题](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/LastRemainingNumInCircle.java)
