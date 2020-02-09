@@ -45,12 +45,11 @@ public class LastRemainingNumInCircle {
         for (int i = 0; i < n; i ++) {
             list.add(i);
         }
-        int bt = 0;
+        int index = 0;
         while (list.size() > 1) {
-            bt = (bt + m - 1) % list.size();
-            list.remove(bt);
+            index = (index + m - 1) % list.size();
+            list.remove(index);
         }
-
         return list.size() == 1 ? list.get(0) : -1;
     }
 
