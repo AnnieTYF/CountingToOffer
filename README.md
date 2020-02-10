@@ -16,3 +16,4 @@
 1. [圆圈中最后剩下的数——约瑟夫环问题](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/LastRemainingNumInCircle.java)
 1. [求1+2+3+...+n 短路求值实现递归](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/LastRemainingNumInCircle.java)
 1. [不用加减乘除做加法](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/AddWithoutSymbol.java)
+1. [把字符串转换成整数](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/ChangeStringToInt.java)
