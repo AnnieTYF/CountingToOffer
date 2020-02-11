@@ -6,7 +6,7 @@ public class ChangeStringToInt {
      *
      * 这道题难就难在，要判断整型的溢出
      */
-    public static int StrToInt(String str) {
+/*    public static int StrToInt(String str) {
         if(str == null || str.equals("")){
             return 0;
         }
@@ -37,7 +37,7 @@ public class ChangeStringToInt {
            return isPositive ? (int)sum : (int)sum * -1;
        }
 
-    }
+    }*/
 
     /**
      * parseInt(String s, int radix)
