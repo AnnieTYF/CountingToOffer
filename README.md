@@ -31,3 +31,5 @@
 1. [把字符串转换成整数](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/ChangeStringToInt.java)
 1. [数组中重复的数](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/ChangeStringToInt.java)
 1. [构建乘积矩阵](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/MultiplyArray.java)
+1. [正则表达式匹配](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/MatchPattern.java)
+1. [表示数值的字符串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/IsNumberString.java)
