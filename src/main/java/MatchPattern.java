@@ -148,6 +148,5 @@ public class MatchPattern {
         String str= "a";
         String pattern = ".*";
         System.out.println(match2(str.toCharArray(), pattern.toCharArray()));
-
     }
 }
