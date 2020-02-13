@@ -52,3 +52,5 @@
 1. [构建乘积矩阵](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/MultiplyArray.java)
 1. [正则表达式匹配](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/MatchPattern.java)
 1. [表示数值的字符串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/IsNumberString.java)
+1. [字符流中第一个不重复的字符](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/FirstUnrepeatableChar.java)
+1. [链表中环的入口结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/EntryNodeOfListLoop.java)
