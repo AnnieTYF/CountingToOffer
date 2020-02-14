@@ -54,3 +54,5 @@
 1. [表示数值的字符串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/IsNumberString.java)
 1. [字符流中第一个不重复的字符](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/FirstUnrepeatableChar.java)
 1. [链表中环的入口结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/EntryNodeOfListLoop.java)
+1. [删除链表中重复的结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/DeleteDuplicateNodeInList.java)
+1. [二叉树的下一个结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/NextNodeOfBST.java)
