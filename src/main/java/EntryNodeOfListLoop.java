@@ -66,7 +66,7 @@ public class EntryNodeOfListLoop {
         if(fast == null || fast.next == null){
             return null;
         }
-        //找到环的入口,从头节点到环入口的距离 = 两指针相遇到换入口的距离
+        //找到环的入口,从头节点到环入口的距离 = 两指针相遇到环入口的距离
         //当然也可以不建立新的结点，让fast = phead，只是个人觉得这样好理解
         ListNode newNode = pHead;
         while(newNode != slow){
