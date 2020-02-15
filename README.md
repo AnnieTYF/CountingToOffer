@@ -56,3 +56,5 @@
 1. [链表中环的入口结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/EntryNodeOfListLoop.java)
 1. [删除链表中重复的结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/DeleteDuplicateNodeInList.java)
 1. [二叉树的下一个结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/NextNodeOfBST.java)
+1. [对称的二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/isSymmetricalBST.java)
+1. [按之字形顺序打印二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/PrintBSTByDifferOrder.java)
