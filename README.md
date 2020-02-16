@@ -58,3 +58,5 @@
 1. [二叉树的下一个结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/NextNodeOfBST.java)
 1. [对称的二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/isSymmetricalBST.java)
 1. [按之字形顺序打印二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/PrintBSTByDifferOrder.java)
+1. [把二叉树打印成多行](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/PrintBSTByLayer.java)
+1. [序列化二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/SerializeBST.java)
