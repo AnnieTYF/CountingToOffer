@@ -112,7 +112,7 @@ public class PrintBSTByLayer {
 
     /**
      * 解法三：递归，这道题最关键的点在于如何保存层数信息
-     * 递归和非递归都可以用下面的方法，区别在于非递归中deep可以用map保存 ，递归中deep作为参数
+     * 递归和非递归都可以用下面的方法，区别在于非递归中deep可以用map保存(HashMap<TreeNode, Integer> map) ，递归中deep作为参数
      * 用变量 deep 存储层数信息，子树的 deep+1，该 deep 可以作为 Lists （作为结果的那个arrayList）的索引
      * 当 deep >= lists 的大小，说明该层还未被存入过 lists，建立新的 list，存结点值，再把 list 存入 lists
      * 当 deep < lists 的大小，说明该层已经被存储过，取出原来存在 lists 中的该层 list，把结点信息继续存入 list
