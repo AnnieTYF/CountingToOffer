@@ -16,7 +16,6 @@ public class SerializeBST {
             this.val = val;
 
         }
-
     }
 
     /**
