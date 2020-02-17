@@ -60,3 +60,5 @@
 1. [按之字形顺序打印二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/PrintBSTByDifferOrder.java)
 1. [把二叉树打印成多行](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/PrintBSTByLayer.java)
 1. [序列化二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/SerializeBST.java)
+1. [二叉搜索树的第k个结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/FindKInBST.java)
+1. [数据流中的中位数](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/GetMedianNum.java)
