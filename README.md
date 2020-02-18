@@ -62,3 +62,5 @@
 1. [序列化二叉树](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/SerializeBST.java)
 1. [二叉搜索树的第k个结点](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/FindKInBST.java)
 1. [数据流中的中位数](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/GetMedianNum.java)
+1. [滑动窗口的最大值-双向队列](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/MaxSlideWindow.java)
+1. [矩阵中的路径-回溯法](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/PathInMatrix.java)
