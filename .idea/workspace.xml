@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/MaxSlideWindow.java" line="28" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="" />
+    <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GetMedianNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GetMedianNum.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +20,12 @@
     <session id="1153416622">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="44" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="6" />
           <entry key="project.open.time.24" value="6" />
           <entry key="project.open.time.25" value="8" />
-          <entry key="project.open.time.26" value="5" />
+          <entry key="project.open.time.26" value="6" />
           <entry key="project.open.time.27" value="5" />
           <entry key="project.open.time.28" value="5" />
           <entry key="project.open.time.29" value="2" />
@@ -29,29 +35,29 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="104" />
+          <entry key="java" value="105" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="105" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28824" />
+          <entry key="java" value="29500" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28824" />
+          <entry key="JAVA" value="29500" />
         </counts>
       </usages-collector>
     </session>
@@ -61,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PrintBSTByLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1027">
+            <state relative-caret-position="2109">
               <caret line="114" column="74" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,19 +77,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SerializeBST.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FindKInBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="855">
+              <caret line="48" column="5" selection-start-line="26" selection-start-column="11" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FindKInBST.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GetMedianNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="190">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,14 +101,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GetMedianNum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MaxSlideWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="301">
+              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FindKInListFromTailToHead.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReverseTheList.java" />
         <option value="$PROJECT_DIR$/src/main/Test/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/MergeLinkedList.java" />
@@ -190,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SerializeBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindKInBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/GetMedianNum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MaxSlideWindow.java" />
       </list>
     </option>
   </component>
@@ -219,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,13 +258,12 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581946824385" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581994462173" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -281,14 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetMedianNum">
-    <configuration name="FindRepeatableNumInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindRepeatableNumInArray" />
-      <module name="CountingToOffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxSlideWindow">
     <configuration name="FirstUnrepeatableChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstUnrepeatableChar" />
       <module name="CountingToOffer" />
@@ -310,6 +310,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxSlideWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSlideWindow" />
+      <module name="CountingToOffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiplyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultiplyArray" />
       <module name="CountingToOffer" />
@@ -318,19 +325,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindRepeatableNumInArray" />
       <item itemvalue="Application.MultiplyArray" />
       <item itemvalue="Application.MatchPattern" />
       <item itemvalue="Application.FirstUnrepeatableChar" />
       <item itemvalue="Application.GetMedianNum" />
+      <item itemvalue="Application.MaxSlideWindow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSlideWindow" />
         <item itemvalue="Application.GetMedianNum" />
         <item itemvalue="Application.FirstUnrepeatableChar" />
         <item itemvalue="Application.MatchPattern" />
         <item itemvalue="Application.MultiplyArray" />
-        <item itemvalue="Application.FindRepeatableNumInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +394,8 @@
       <workItem from="1581640964959" duration="8641000" />
       <workItem from="1581727941222" duration="10829000" />
       <workItem from="1581816940784" duration="8520000" />
-      <workItem from="1581926096278" duration="8577000" />
+      <workItem from="1581926096278" duration="9088000" />
+      <workItem from="1581989022648" duration="3763000" />
     </task>
     <servers />
   </component>
@@ -421,13 +429,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292281000" />
+    <option name="totallyTimeSpent" value="296555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31689572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32174617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -437,12 +445,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.13499112" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36412078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.12611012" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.4689165" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.7015986" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.330373" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -508,13 +516,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/GreatesSumOfSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetLeastNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
@@ -809,10 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-          <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,9 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="28" column="16" selection-start-line="24" selection-start-column="5" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,36 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SerializeBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrintBSTByLayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1027">
-          <caret line="114" column="74" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindKInBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,14 +841,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrintBSTByLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="114" column="74" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SerializeBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindKInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="48" column="5" selection-start-line="26" selection-start-column="11" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetMedianNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <caret line="61" column="5" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MaxSlideWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

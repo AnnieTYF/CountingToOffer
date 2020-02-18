@@ -28,6 +28,7 @@ public class GetMedianNum {
      */
     //记录偶数or奇数
     static int count = 0;
+    //插入数据方法
     public static void Insert(Integer num) {
         //个数为偶数的话，则先插入到大顶堆，然后将大顶堆中最大的数插入小顶堆中
        if(count % 2 == 0){
@@ -42,7 +43,7 @@ public class GetMedianNum {
        }
        count++;
     }
-
+    //求中位数方法
     public static Double GetMedian() {
         //当前为偶数个，则取小顶堆和大顶堆的堆顶元素求平均
         if(count%2 == 0){
