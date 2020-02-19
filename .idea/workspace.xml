@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MaxSlideWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MaxSlideWindow.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +20,11 @@
     <session id="1153416622">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="44" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="6" />
-          <entry key="project.open.time.24" value="6" />
-          <entry key="project.open.time.25" value="8" />
+          <entry key="project.open.time.24" value="7" />
+          <entry key="project.open.time.25" value="9" />
           <entry key="project.open.time.26" value="6" />
           <entry key="project.open.time.27" value="5" />
           <entry key="project.open.time.28" value="5" />
@@ -34,29 +35,29 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="106" />
+          <entry key="java" value="109" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="106" />
+          <entry key="JAVA" value="109" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="29729" />
+          <entry key="java" value="30314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29729" />
+          <entry key="JAVA" value="30314" />
         </counts>
       </usages-collector>
     </session>
@@ -64,22 +65,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FindKInBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="48" column="5" selection-start-line="26" selection-start-column="11" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GetMedianNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="1102">
+              <caret line="61" column="5" selection-start-line="55" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MaxSlideWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="65" column="59" lean-forward="true" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+            <state relative-caret-position="1178">
+              <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PathInMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="244">
+              <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MovingRangeOfRobot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -142,9 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/Test/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MergeLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IsSubTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/PrintOutMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/MinStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/StackPopPush.java" />
@@ -193,6 +188,9 @@
         <option value="$PROJECT_DIR$/src/main/java/GetMedianNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/MaxSlideWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/PathInMatrix.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/ThreadUnsafeExample.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MovingRangeOfRobot.java" />
       </list>
     </option>
   </component>
@@ -222,6 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -248,18 +248,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CountingToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountingToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582000162953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582085042400" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -284,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxSlideWindow">
+  <component name="RunManager" selected="Application.ThreadTest">
     <configuration name="FirstUnrepeatableChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstUnrepeatableChar" />
       <module name="CountingToOffer" />
@@ -313,27 +318,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiplyArray" />
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest" />
       <module name="CountingToOffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MultiplyArray" />
       <item itemvalue="Application.MatchPattern" />
       <item itemvalue="Application.FirstUnrepeatableChar" />
       <item itemvalue="Application.GetMedianNum" />
       <item itemvalue="Application.MaxSlideWindow" />
+      <item itemvalue="Application.ThreadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.MaxSlideWindow" />
         <item itemvalue="Application.GetMedianNum" />
         <item itemvalue="Application.FirstUnrepeatableChar" />
         <item itemvalue="Application.MatchPattern" />
-        <item itemvalue="Application.MultiplyArray" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +396,9 @@
       <workItem from="1581727941222" duration="10829000" />
       <workItem from="1581816940784" duration="8520000" />
       <workItem from="1581926096278" duration="9088000" />
-      <workItem from="1581989022648" duration="7746000" />
+      <workItem from="1581989022648" duration="8518000" />
+      <workItem from="1582019987694" duration="769000" />
+      <workItem from="1582074103427" duration="3588000" />
     </task>
     <servers />
   </component>
@@ -425,13 +432,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300538000" />
+    <option name="totallyTimeSpent" value="305667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32174617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33306387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,12 +448,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.12611012" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.5150977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.60568386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.24866785" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.5079929" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.330373" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -512,27 +519,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/AppendToMinNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CountOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
@@ -782,9 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="41" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,9 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2109">
           <caret line="114" column="74" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,10 +837,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/ThreadUnsafeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetMedianNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="1102">
+          <caret line="61" column="5" selection-start-line="55" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,8 +856,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MaxSlideWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="65" column="59" lean-forward="true" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+        <state relative-caret-position="1178">
+          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,8 +876,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PathInMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="244">
+          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MovingRangeOfRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
         </state>
       </provider>
     </entry>
