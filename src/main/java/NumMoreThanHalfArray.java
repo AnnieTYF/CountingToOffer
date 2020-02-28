@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 public class NumMoreThanHalfArray {
     /**
      * 数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。
@@ -40,7 +44,56 @@ public class NumMoreThanHalfArray {
         return (flag>array.length/2)? temp:0;
     }
     /**
+     * 解法一的后续：解法一也叫Boyer-Moore 投票算法
+     * 如果我们把众数记为 +1+1 ，把其他数记为 -1−1 ，将它们全部加起来，显然和大于 0 ，从结果本身我们可以看出众数比其他数多
+     * 这是leecode上面的答案
+     * leecode上是默认大于一般的众数总是存在的
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
+     */
+    public int majorityElement2(int[] nums) {
+        int count = 0;
+        Integer candidate = null;
+
+        for (int num : nums) {
+            if (count == 0) {
+                candidate = num;
+            }
+            count += (num == candidate) ? 1 : -1;
+        }
+        return candidate;
+    }
+
+    /**
      * 解法二：快排，时间复杂度O(NlogN)
      * 用快排将数组排序，如果超过半数则数组的中间值一定是该数
+     * 怎么说呢，在实际编码中要学会用java自带的API，除非是专门考排序
      */
+    public int majorityElement(int[] nums) {
+        Arrays.sort(nums);
+        return nums[nums.length/2];
+    }
+    /**
+     * 解法三：哈希表，用hashmap记录出现次数
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(n)
+     */
+    public int majorityElement3(int[] nums) {
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for(int i = 0; i<nums.length;i++){
+            if(map.containsKey(nums[i])){
+                int count = map.get(nums[i]);
+                map.put(nums[i],++count);
+            }else{
+                map.put(nums[i],1);
+            }
+        }
+        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+            if(entry.getValue() > (nums.length/2)){
+                return entry.getKey();
+            }
+        }
+        return 0;
+    }
+
 }
