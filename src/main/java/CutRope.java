@@ -45,7 +45,8 @@ public class CutRope {
             return (int)Math.pow(3,target/3)* 2;
         }
     }
-    public static void main(String args[]){
+    public static void main(String args[])
+    {
             System.out.println(cutRope(4));
     }
 }
