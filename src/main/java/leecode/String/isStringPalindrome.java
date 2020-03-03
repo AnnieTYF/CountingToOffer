@@ -41,5 +41,8 @@ public class isStringPalindrome {
     {
         String s = "race a car";
         System.out.println(isPalindrome(s));
+        String  a="ABCD";
+        String  b="abcd";
+        System.out.println(a.equalsIgnoreCase(b));
     }
 }
