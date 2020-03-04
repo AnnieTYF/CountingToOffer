@@ -6,5 +6,7 @@
 ## String 
 1. [验证回文串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/isStringPalindrome.java)
 2. [分割回文串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/PalindromePartitioning.java)
+1. [单词拆分](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/WordBreak.java)
 ## Dynamic Programming
 1. [鸡蛋掉落](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/eggDrops.java)
+
