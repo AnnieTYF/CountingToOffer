@@ -1,6 +1,8 @@
 package leecode.String;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.List;
 
 public class PalindromePartitioning {
@@ -65,5 +67,7 @@ public class PalindromePartitioning {
     {
         String s = "abbab";
         System.out.println(partition(s).toString());
+        HashMap map = new HashMap<>();
+        Hashtable hashtable = new Hashtable();
     }
 }

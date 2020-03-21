@@ -57,7 +57,7 @@ public class WordBreak {
      * https://leetcode-cn.com/problems/word-break/solution/dan-ci-chai-fen-by-leetcode/
      */
     /**
-     * 记忆化回溯
+     * 解法二：记忆化回溯
      * Boolean[] memo  数组会被用来保存子问题的结果，如果子问题为true，父问题才有可能为true
      * 每当访问到已经访问过的后缀串，直接用 memo 数组中的值返回而不需要继续调用函数
      * 时间复杂度：O(n^2) 回溯树的大小最多达到 n^2
