@@ -5,6 +5,9 @@ import java.util.HashMap;
 
 /**
  * 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词
+ * 进阶：如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
+ * 这个意味着字符不止26位了，就不能再用数组，而要用hashmap，就是我第一开始的做法
+ * 虽然可能效率没数组高，但是可以适应绝大部分情况
  * https://leetcode-cn.com/explore/interview/card/top-interview-quesitons/275/string/1142/
  */
 public class IsAnagram {
