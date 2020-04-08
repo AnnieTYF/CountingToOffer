@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/String/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/String/IsAnagram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,27 +45,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="209" />
+          <entry key="java" value="210" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="209" />
+          <entry key="JAVA" value="210" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="49071" />
+          <entry key="java" value="49198" />
           <entry key="md" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="49071" />
+          <entry key="JAVA" value="49198" />
           <entry key="Markdown" value="18" />
         </counts>
       </usages-collector>
@@ -87,10 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/IsAnagram.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/FirstUniqChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-973">
-              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+            <state relative-caret-position="95">
+              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,13 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/FirstUniqChar.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/ReverseString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -154,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MatchPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/FirstUnrepeatableChar.java" />
         <option value="$PROJECT_DIR$/src/main/java/EntryNodeOfListLoop.java" />
         <option value="$PROJECT_DIR$/src/main/java/DeleteDuplicateNodeInList.java" />
@@ -205,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/main/Test/WangYi2.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/String/IsAnagram.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/String/FirstUniqChar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leecode/String/ReverseString.java" />
       </list>
     </option>
   </component>
@@ -305,7 +301,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586325686511" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586342481801" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -484,7 +480,7 @@
       <workItem from="1585877978250" duration="1183000" />
       <workItem from="1585986284951" duration="1320000" />
       <workItem from="1586254854535" duration="12907000" />
-      <workItem from="1586307864056" duration="4205000" />
+      <workItem from="1586307864056" duration="5379000" />
     </task>
     <servers />
   </component>
@@ -518,13 +514,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465359000" />
+    <option name="totallyTimeSpent" value="466533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2926435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2926435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -534,12 +530,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.09769094" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.43872115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3463588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.001776199" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.35523978" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.330373" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -611,13 +607,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindRepeatableNumInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FirstCommonNodeList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-304">
@@ -969,11 +958,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/FirstUniqChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="95">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
