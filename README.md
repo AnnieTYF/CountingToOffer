@@ -10,6 +10,7 @@
 1. [单词拆分2](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/WordBreak2.java)
 1. [实现 Trie (前缀树)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/Trie.java)
 1. [有效的字母异位词](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/IsAnagram.java)
+1. [字符串中的第一个唯一字符](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/FirstUniqChar.java)
 ## Dynamic Programming
 1. [鸡蛋掉落](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/eggDrops.java)
 
