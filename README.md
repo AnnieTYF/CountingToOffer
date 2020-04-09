@@ -13,4 +13,5 @@
 1. [字符串中的第一个唯一字符](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/FirstUniqChar.java)
 ## Dynamic Programming
 1. [鸡蛋掉落](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/eggDrops.java)
+1. [最长上升子序列300](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/LengthOfLiftingSubList.java)
 
