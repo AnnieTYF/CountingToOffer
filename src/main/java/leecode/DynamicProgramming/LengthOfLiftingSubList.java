@@ -73,7 +73,7 @@ public class LengthOfLiftingSubList {
         for(int i = 1; i<nums.length;i++){
             if(nums[i] > dp[end]){
                 //如果有序数组 tail 中存在大于 num 的元素，找到第 1 个，让它变小，
-                // //这样我们就找到了一个结尾更小的相同长度的上升子序
+                //这样我们就找到了一个结尾更小的相同长度的上升子序
                 dp[++end] = nums[i];
             }else{
                 //二分查找
