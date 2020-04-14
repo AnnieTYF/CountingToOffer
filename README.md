@@ -11,8 +11,11 @@
 1. [实现 Trie (前缀树)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/Trie.java)
 1. [有效的字母异位词](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/IsAnagram.java)
 1. [字符串中的第一个唯一字符](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/FirstUniqChar.java)
+1. [最长不含重复字符的子字符串(双指针+哈希表优化)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/LengthOfLongestSubstring.java)
 ## Dynamic Programming
 1. [鸡蛋掉落](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/eggDrops.java)
 1. [最长上升子序列300](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/LengthOfLiftingSubList.java)
 1. [俄罗斯套娃信封问题(二维最长子序列问题，降维)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java)
+## Sort & Search
+1. [颜色分类(三路快排)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/SortColors.java)
 
