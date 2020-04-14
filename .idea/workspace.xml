@@ -9,7 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Array/LengthOfLiftingSubList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/SortAndSearch/SortColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Array/SortColors.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,27 +49,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="223" />
+          <entry key="java" value="225" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="223" />
+          <entry key="JAVA" value="225" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="54342" />
+          <entry key="java" value="54945" />
           <entry key="md" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="54342" />
+          <entry key="JAVA" value="54945" />
           <entry key="Markdown" value="18" />
         </counts>
       </usages-collector>
@@ -91,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="109" column="5" lean-forward="true" selection-start-line="106" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
+            <state relative-caret-position="179">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +101,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="4" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/LengthOfLongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,9 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/GetMedianNum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MaxSlideWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PathInMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/Test/ThreadUnsafeExample.java" />
         <option value="$PROJECT_DIR$/src/main/Test/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MovingRangeOfRobot.java" />
@@ -195,6 +205,9 @@
         <option value="$PROJECT_DIR$/src/main/Test/WangYiHuYu3.java" />
         <option value="$PROJECT_DIR$/src/main/Test/WangYiHY.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leecode/SortAndSearch/SortColors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leecode/String/LengthOfLongestSubstring.java" />
       </list>
     </option>
   </component>
@@ -285,6 +298,15 @@
               <item name="CountingToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountingToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountingToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,7 +326,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586837915385" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586880362223" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -329,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortColors">
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
     <configuration name="LengthOfLiftingSubList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.DynamicProgramming.LengthOfLiftingSubList" />
       <module name="CountingToOffer" />
@@ -343,12 +365,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.Array.SortColors" />
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.String.LengthOfLongestSubstring" />
       <module name="CountingToOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.Array.*" />
+          <option name="PATTERN" value="leecode.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.SortAndSearch.SortColors" />
+      <module name="CountingToOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leecode.SortAndSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,13 +398,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeiZhong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeiZhong" />
-      <module name="CountingToOffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WeiZhong2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WeiZhong2" />
       <module name="CountingToOffer" />
@@ -378,19 +406,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WeiZhong" />
       <item itemvalue="Application.WeiZhong2" />
       <item itemvalue="Application.LengthOfLiftingSubList" />
       <item itemvalue="Application.WangYiHY" />
       <item itemvalue="Application.SortColors" />
+      <item itemvalue="Application.LengthOfLongestSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.WangYiHY" />
         <item itemvalue="Application.LengthOfLiftingSubList" />
         <item itemvalue="Application.WeiZhong2" />
-        <item itemvalue="Application.WeiZhong" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +516,7 @@
       <workItem from="1586481990431" duration="2846000" />
       <workItem from="1586602576284" duration="9327000" />
       <workItem from="1586768892206" duration="597000" />
-      <workItem from="1586832441949" duration="5068000" />
+      <workItem from="1586832441949" duration="11733000" />
     </task>
     <servers />
   </component>
@@ -522,10 +550,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509824000" />
+    <option name="totallyTimeSpent" value="516489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32659662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -537,12 +566,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.07637656" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3623446" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.20248668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26642984" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.3232682" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.3179396" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.330373" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -626,20 +655,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/IsPokerContinuous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IsSubTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/isSymmetricalBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -975,20 +990,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/SortAndSearch/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="109" column="5" lean-forward="true" selection-start-line="106" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
+        <state relative-caret-position="179">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="4" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="246">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

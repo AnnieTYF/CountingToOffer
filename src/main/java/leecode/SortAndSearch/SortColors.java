@@ -1,4 +1,4 @@
-package leecode.Array;
+package leecode.SortAndSearch;
 
 import java.util.Arrays;
 
