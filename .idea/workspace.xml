@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LengthOfLiftingSubList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LengthOfLiftingSubList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leecode/Array/LengthOfLiftingSubList.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,52 +23,52 @@
     <session id="1153416622">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="81" />
+          <entry key="project.closed" value="84" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="7" />
           <entry key="project.open.time.24" value="11" />
           <entry key="project.open.time.25" value="16" />
-          <entry key="project.open.time.26" value="8" />
+          <entry key="project.open.time.26" value="9" />
           <entry key="project.open.time.27" value="8" />
           <entry key="project.open.time.28" value="6" />
           <entry key="project.open.time.29" value="4" />
           <entry key="project.open.time.30" value="5" />
-          <entry key="project.open.time.31" value="4" />
+          <entry key="project.open.time.31" value="5" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.35" value="3" />
+          <entry key="project.open.time.35" value="4" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="82" />
+          <entry key="project.opened" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="219" />
+          <entry key="java" value="223" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="219" />
+          <entry key="JAVA" value="223" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="52090" />
+          <entry key="java" value="54342" />
           <entry key="md" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52090" />
+          <entry key="JAVA" value="54342" />
           <entry key="Markdown" value="18" />
         </counts>
       </usages-collector>
@@ -80,8 +79,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LengthOfLiftingSubList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="82" column="38" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+            <state relative-caret-position="1539">
+              <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="106" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,31 +101,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Test/WeiZhong2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/isStringPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="59">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="4" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -154,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/PrintBSTByDifferOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PrintBSTByLayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SerializeBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FindKInBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/GetMedianNum.java" />
         <option value="$PROJECT_DIR$/src/main/java/MaxSlideWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/PathInMatrix.java" />
@@ -205,6 +191,10 @@
         <option value="$PROJECT_DIR$/src/main/java/leecode/Array/LengthOfLiftingSubList.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LengthOfLiftingSubList.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/WangYiHuYu2.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/WangYiHuYu3.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/WangYiHY.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java" />
       </list>
     </option>
   </component>
@@ -236,7 +226,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,15 +285,6 @@
               <item name="CountingToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CountingToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CountingToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,14 +299,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586449847759" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586837915385" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -348,20 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLiftingSubList">
-    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.String.FirstUniqChar" />
-      <module name="CountingToOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortColors">
     <configuration name="LengthOfLiftingSubList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.DynamicProgramming.LengthOfLiftingSubList" />
       <module name="CountingToOffer" />
@@ -375,8 +343,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WangYi2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WangYi2" />
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.Array.SortColors" />
+      <module name="CountingToOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leecode.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WangYiHY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WangYiHY" />
       <module name="CountingToOffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -397,19 +378,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WangYi2" />
-      <item itemvalue="Application.FirstUniqChar" />
       <item itemvalue="Application.WeiZhong" />
       <item itemvalue="Application.WeiZhong2" />
       <item itemvalue="Application.LengthOfLiftingSubList" />
+      <item itemvalue="Application.WangYiHY" />
+      <item itemvalue="Application.SortColors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortColors" />
+        <item itemvalue="Application.WangYiHY" />
         <item itemvalue="Application.LengthOfLiftingSubList" />
         <item itemvalue="Application.WeiZhong2" />
         <item itemvalue="Application.WeiZhong" />
-        <item itemvalue="Application.FirstUniqChar" />
-        <item itemvalue="Application.WangYi2" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +485,10 @@
       <workItem from="1586254854535" duration="12907000" />
       <workItem from="1586307864056" duration="18288000" />
       <workItem from="1586415051216" duration="12544000" />
-      <workItem from="1586481990431" duration="1246000" />
+      <workItem from="1586481990431" duration="2846000" />
+      <workItem from="1586602576284" duration="9327000" />
+      <workItem from="1586768892206" duration="597000" />
+      <workItem from="1586832441949" duration="5068000" />
     </task>
     <servers />
   </component>
@@ -538,13 +522,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="493232000" />
+    <option name="totallyTimeSpent" value="509824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31123686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32659662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -554,12 +537,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.31083483" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25932506" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.07637656" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3623446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.001776199" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.3232682" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.330373" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -627,38 +610,22 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Test/WangYiHY.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Test/WangYiHY.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/GetMedianNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="61" column="5" selection-start-line="55" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GreatesSumOfSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InversePairsInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IsNumberString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IsPokerContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
@@ -957,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/WeiZhong2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/String/isStringPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -973,8 +933,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/LengthOfLiftingSubList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="82" column="38" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        <state relative-caret-position="1539">
+          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/WangYiHuYu2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/WangYiHuYu3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="5" selection-start-line="22" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/WeiZhong2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/WangYiHY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -983,11 +977,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+        <state relative-caret-position="358">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="106" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="4" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
