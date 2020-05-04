@@ -3,6 +3,7 @@
 # leecode
 ## Array
 1. [合并两个有序数组](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/Array/MergeTwoSortedArray.java)
+1. [三个数的最大乘积(整数数组要考虑负数)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/Array/MaximumProduct.java)
 ## String 
 1. [验证回文串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/isStringPalindrome.java)
 1. [分割回文串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/PalindromePartitioning.java)
@@ -18,4 +19,5 @@
 1. [俄罗斯套娃信封问题(二维最长子序列问题，降维)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java)
 ## Sort & Search
 1. [颜色分类(三路快排)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/SortColors.java)
+1. [两个有序数组求交集（排序+双指针）](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/TwoArrayIntersection.java)
 
