@@ -1,32 +1,42 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class WangYiHuYu3 {
     //求全排列乘以权重
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        for(int i = 0; i < t; i++){
-            int n = sc.nextInt(); //正整数个数
-            int[][] array = new int[n][2];
-            for(int j = 0; j<n ; j++){
-                int num = sc.nextInt();
-                array[j][0] = num;
-            }
-            for(int k = 0; k<n;k++){
-                int num = sc.nextInt();
-                array[k][1] = num;
-            }
-            solution(array);
-        }
-    }
-    //按权重排序,权重最下的启动顺序最大
-    public static void solution(int[][] array){
 
-        int sum = (array.length-1)*array[0][1];
-        for(int i = 1; i<array.length;i++){
-            sum += array[i][1];
+
+    public boolean exist(char[][] board, String word) {
+        char[] words = word.toCharArray();
+        for(int i = 0; i<board.length;i++){
+            for(int j = 0; j<board[0].length;j++){
+                if(judge( board, words,i, j, 0)){
+                    return true;
+                }
+            }
         }
-        System.out.println(sum);
+        return false;
+    }
+
+    public boolean judge(char[][] board,char[] word,int i, int j,int index){
+
+        //超过界限/不等于/之前走过了
+        if(i<0 || j<0 || i>=board.length || j>=board[0].length  || board[i][j] != word[index] )
+            return false;
+        if(index == word.length-1){
+            return true;
+        }
+        //标注之前走过的空格，防止回填,剪枝
+        char tmp = board[i][j];
+        board[i][j] = '/';
+        if(judge(board,word,i+1,j,index+1) ||
+                judge(board,word,i-1,j,index+1) ||
+                judge(board,word,i,j-1,index+1) ||
+                judge(board,word,i,j+1,index+1)){
+            return true;
+        }
+        board[i][j] = tmp;
+        return false;
     }
 
 }
