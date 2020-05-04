@@ -102,7 +102,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="96">
               <caret line="109" column="5" lean-forward="true" selection-start-line="90" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -324,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588582354437" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588582375923" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -520,7 +520,7 @@
       <workItem from="1588121012359" duration="8990000" />
       <workItem from="1588158464085" duration="875000" />
       <workItem from="1588233285007" duration="687000" />
-      <workItem from="1588557106307" duration="8576000" />
+      <workItem from="1588557106307" duration="8828000" />
     </task>
     <servers />
   </component>
@@ -554,11 +554,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591569000" />
+    <option name="totallyTimeSpent" value="591821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3581245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -570,12 +569,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.22735347" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.22735347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38543516" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.39253998" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.39253998" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.330373" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -1082,7 +1081,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DynamicProgramming/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="96">
           <caret line="109" column="5" lean-forward="true" selection-start-line="90" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
