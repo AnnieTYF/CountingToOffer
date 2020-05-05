@@ -19,6 +19,8 @@
 1. [俄罗斯套娃信封问题(二维最长子序列问题，降维)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/MaxEnvelopes.java)
 1. [零钱兑换](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/CoinChange.java)
 1. [至少有K个重复字符的最长子串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/LongestSubstring.java)
+1. [二叉树中的最大路径和
+](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/BSTmaxPathSum.java)
 ## Sort & Search
 1. [颜色分类(三路快排)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/SortColors.java)
 1. [两个有序数组求交集（排序+双指针）](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/TwoArrayIntersection.java)
