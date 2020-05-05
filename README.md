@@ -24,6 +24,7 @@
 1. [打家劫舍](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/Rob.java)
 1. [完全平方数](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/NumSquares.java)
 1. [最长连续序列](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/LongestConsecutive.java)
+1. [矩阵中的最长递增路径](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/MatrixlongestIncreasingPath.java)
 ## Sort & Search
 1. [颜色分类(三路快排)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/SortColors.java)
 1. [两个有序数组求交集（排序+双指针）](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/TwoArrayIntersection.java)
