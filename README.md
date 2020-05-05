@@ -21,6 +21,7 @@
 1. [至少有K个重复字符的最长子串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/LongestSubstring.java)
 1. [二叉树中的最大路径和
 ](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/BSTmaxPathSum.java)
+1. [打家劫舍](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/DynamicProgramming/Rob.java)
 ## Sort & Search
 1. [颜色分类(三路快排)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/SortColors.java)
 1. [两个有序数组求交集（排序+双指针）](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/TwoArrayIntersection.java)
