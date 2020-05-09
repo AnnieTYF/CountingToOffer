@@ -4,6 +4,7 @@
 ## Array
 1. [合并两个有序数组](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/Array/MergeTwoSortedArray.java)
 1. [三个数的最大乘积(整数数组要考虑负数)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/Array/MaximumProduct.java)
+1. [三数之和](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/Array/ThreeSum.java)
 ## String 
 1. [验证回文串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/isStringPalindrome.java)
 1. [分割回文串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/PalindromePartitioning.java)
