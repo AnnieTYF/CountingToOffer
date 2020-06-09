@@ -1,4 +1,4 @@
-package leecode;
+package leecode.DynamicProgramming;
 
 public class DistributeCandies {
     /**
