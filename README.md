@@ -34,4 +34,5 @@
 ## Sort & Search
 1. [颜色分类(三路快排)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/SortColors.java)
 1. [两个有序数组求交集（排序+双指针）](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/SortAndSearch/TwoArrayIntersection.java)
-
+## BackTrace
+1. [八皇后（回溯算法）](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/BackTrace/EightQueens.java)
