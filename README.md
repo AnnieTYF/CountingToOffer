@@ -17,6 +17,7 @@
 1. [字符串中的第一个唯一字符](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/FirstUniqChar.java)
 1. [最长不含重复字符的子字符串(双指针+哈希表优化)](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/LengthOfLongestSubstring.java)
 1. [最小覆盖子串](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/MinWindow.java)
+1. [字符串的排列](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/String/PermutationInString.java)
 
 ## Tree
 1. [二叉搜索树的最近公共祖先](https://github.com/AnnieTYF/CountingToOffer/blob/master/src/main/java/leecode/Tree/LowestCommonAncestor.java)
