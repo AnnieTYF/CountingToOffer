@@ -47,7 +47,7 @@ public class LengthOfLongestSubstring {
      * @param s
      * @return
      */
-    public static int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring3(String s) {
         HashMap<Character,Integer> map = new HashMap<>();
         int length = 0;
         int left = 0;
@@ -62,6 +62,39 @@ public class LengthOfLongestSubstring {
             right++;
         }
         return length;
+    }
+
+    /**
+     * 滑动窗口法
+     * @param s
+     * @return
+     */
+    public static int lengthOfLongestSubstring(String s) {
+        HashMap<Character,Integer> window = new HashMap<>();
+        int left = 0;
+        int right = 0;
+        int res = 0;
+        while(right < s.length()){
+            char c = s.charAt(right);
+            right++;
+            if(window.containsKey(c)){
+                int count = window.get(c);
+                window.put(c,++count);
+            }else{
+                window.put(c,1);
+            }
+            //如果出现重复字符，向左缩减窗口,直到没有和c重复的字符
+            while(window.get(c) > 1){
+              char d = s.charAt(left);
+              left++;
+                if(window.containsKey(d)){
+                    int count = window.get(d);
+                    window.put(d,--count);
+                }
+            }
+            res = Math.max(res,right-left);
+        }
+        return res;
     }
     public static void main(String[] args) {
         String s = "aab";

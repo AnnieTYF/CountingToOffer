@@ -37,11 +37,9 @@ public class FindAllAnagramsInString {
                 need.put(c,1);
             }
         }
-
         int left = 0;
         int right = 0;
         int vaild = 0;
-
         while(right < s.length()){
             char c = s.charAt(right);
             right++;
@@ -56,7 +54,6 @@ public class FindAllAnagramsInString {
                     vaild++;
                 }
             }
-
             while(right-left >= p.length()){
                 if(vaild == need.size()){
                      res.add(left);
