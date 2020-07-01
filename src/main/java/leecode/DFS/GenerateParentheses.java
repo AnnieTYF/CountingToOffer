@@ -32,7 +32,6 @@ public class GenerateParentheses {
         return res;
     }
 
-
     public static void backtrace(int left, int right, int max,StringBuilder trace,List<String> res){
         if(trace.length() == 2*max){
             res.add(trace.toString());
