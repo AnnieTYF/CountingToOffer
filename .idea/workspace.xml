@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e25e65e3-5133-4995-bc4b-4d39f3080706" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leecode/DFS/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leecode/DFS/GenerateParentheses.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +21,7 @@
     <session id="1153416622">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="119" />
+          <entry key="project.closed" value="121" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="7" />
@@ -32,14 +31,14 @@
           <entry key="project.open.time.27" value="11" />
           <entry key="project.open.time.28" value="8" />
           <entry key="project.open.time.29" value="4" />
-          <entry key="project.open.time.30" value="7" />
+          <entry key="project.open.time.30" value="8" />
           <entry key="project.open.time.31" value="7" />
           <entry key="project.open.time.32" value="5" />
           <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.35" value="6" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="5" />
+          <entry key="project.open.time.37" value="6" />
           <entry key="project.open.time.38" value="3" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.43" value="2" />
@@ -50,32 +49,32 @@
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="122" />
+          <entry key="project.opened" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="297" />
+          <entry key="java" value="298" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="297" />
+          <entry key="JAVA" value="298" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="77457" />
+          <entry key="java" value="77829" />
           <entry key="md" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="77457" />
+          <entry key="JAVA" value="77829" />
           <entry key="Markdown" value="18" />
         </counts>
       </usages-collector>
@@ -105,22 +104,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DFS/SudokuSolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-              <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DFS/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="551">
               <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,11 +115,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Array/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="367">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leecode/LinkedList/ReverseNodesInKGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -177,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leecode/Array/SortColors.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/SortAndSearch/SortColors.java" />
         <option value="$PROJECT_DIR$/src/main/Test/HW1.java" />
         <option value="$PROJECT_DIR$/src/main/Test/HW2.java" />
@@ -228,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leecode/DFS/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/DFS/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/main/java/leecode/Array/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leecode/LinkedList/ReverseNodesInKGroup.java" />
       </list>
     </option>
   </component>
@@ -244,7 +239,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1389" />
@@ -260,8 +255,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +304,15 @@
               <item name="CountingToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CountingToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CountingToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,7 +332,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593620533804" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594049782552" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -567,7 +571,9 @@
       <workItem from="1592272526370" duration="995000" />
       <workItem from="1593447256095" duration="2143000" />
       <workItem from="1593531041417" duration="2930000" />
-      <workItem from="1593610514032" duration="1889000" />
+      <workItem from="1593610514032" duration="1923000" />
+      <workItem from="1593962272668" duration="595000" />
+      <workItem from="1594043894916" duration="2427000" />
     </task>
     <servers />
   </component>
@@ -601,7 +607,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="664738000" />
+    <option name="totallyTimeSpent" value="667794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,10 +619,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20291026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20937753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -631,7 +637,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.058614563" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" visible="true" weight="0.051509768" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004042" side_tool="true" weight="0.330373" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.24511546" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
@@ -739,13 +745,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Array/MaximumProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Test/WangYiHuYu3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1096,7 +1095,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/DFS/GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="551">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1106,8 +1105,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/Array/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="367">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leecode/LinkedList/ReverseNodesInKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
