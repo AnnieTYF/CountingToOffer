@@ -75,4 +75,54 @@ public class SellStock {
         // 穷举了 n × max_k × 2 个状态
          return dp[prices.length-1][max_k][0];
     }
+
+    //冷静期一天
+    public int maxProfit4(int[] prices) {
+        if(prices.length == 0){
+            return 0;
+        }
+        int dp0 = 0;
+        int dp1 = Integer.MIN_VALUE;
+        // 代表 dp[i-2][0]
+        int dpPre0 = 0;
+        for(int i = 0; i<prices.length;i++){
+            int temp = dp0;
+            dp0 = Math.max(dp0, dp1+prices[i]);
+            dp1 = Math.max(dp1, dpPre0 - prices[i]);
+            dpPre0 = temp;
+        }
+        return dp0;
+    }
+
+    /**
+     * 给定一个数组，它的第 i 个元素是一支给定的股票在第 i 天的价格。
+     *设计一个算法来计算你所能获取的最大利润。你最多可以完成 k 笔交易
+     * 动态转移方程：                           天数由昨天的决定 交易次数-1
+     * dp[i][k][0] = Math.max(dp[i-1][k][0] , dp[i-1][k][1] + prices[i]）
+     * dp[i][k][1] = Math.max(dp[i-1][k][1],dp[i-1][k-1][0] - prices[i] )
+     * 这个k-1可以在buy的时候，也可以在sell的时候，二选一，因为两步为一次交易
+     * basecase 特殊情况结束：
+     * dp[-1][k][0] = dp[i][0][0] = 0
+     * dp[-1][k][1] = dp[i][0][1] = -infinity(负无穷)
+     */
+    public int maxProfit(int k, int[] prices) {
+        if(prices.length == 0){
+            return 0;
+        }
+        int n = prices.length;
+        int[][][] dp = new int[n][k+1][2];
+        for(int i = 0 ; i<n; i++){
+            for(int j = k; j>0 ; j--){
+                //base case
+                if(i-1 == -1){
+                    dp[i][j][0] = 0;
+                    dp[i][j][1] = -prices[i];
+                    continue;
+                }
+                dp[i][j][0] = Math.max(dp[i-1][j][0],dp[i-1][j][0]+prices[i]);
+                dp[i][j][1] = Math.max(dp[i-1][j][1],dp[i-1][k-1][0] - prices[i]);
+            }
+        }
+        return dp[n-1][k][0];
+    }
 }
