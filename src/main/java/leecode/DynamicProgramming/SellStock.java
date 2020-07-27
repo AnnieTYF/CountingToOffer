@@ -26,6 +26,52 @@ public class SellStock {
     }
 
     /**
+     * 不限交易次数
+     * 如果 k 为正无穷，那么就可以认为 k 和 k - 1 是一样的
+     * dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
+     * dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i]) = max(dp[i-1][k][1], dp[i-1][k][0] - prices[i])
+     * 我们发现数组中的 k 已经不会改变了，也就是说不需要记录 k 这个状态了：
+     * dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+     * dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])
+     * @param prices
+     * @return
+     */
+    public int maxProfit22(int[] prices) {
+        //防止输入为空
+        if(prices.length == 0){
+            return 0;
+        }
+        int[][] dp = new int[prices.length][2];
+        for(int i = 0; i<prices.length; i++){
+                //base case
+                if(i-1 == -1){
+                    dp[i][0] = 0;
+                    dp[i][1] = -prices[i];
+                    continue;
+                }
+                dp[i][0] = Math.max(dp[i-1][0] , dp[i-1][1] + prices[i]);
+                dp[i][1] = Math.max(dp[i-1][1],dp[i-1][0] - prices[i]);
+        }
+        // 穷举了 n × max_k × 2 个状态
+        return dp[prices.length-1][0];
+    }
+    public int maxProfit23(int[] prices) {
+        //防止输入为空
+        if(prices.length == 0){
+            return 0;
+        }
+        int dp0 = 0;
+        int dp1 = Integer.MIN_VALUE;
+        for(int i = 0; i<prices.length; i++){
+            int temp = dp0;
+            dp0 = Math.max(dp0 , dp1 + prices[i]);
+            dp1 = Math.max(dp1,temp - prices[i]);
+        }
+        // 穷举了 n × max_k × 2 个状态
+        return dp0;
+    }
+
+    /**
      * 给定一个数组，它的第 i 个元素是一支给定的股票在第 i 天的价格。
      * 设计一个算法来计算你所能获取的最大利润。你最多可以完成两笔交易。
      * 注意: 你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
@@ -112,15 +158,16 @@ public class SellStock {
         int n = prices.length;
         int[][][] dp = new int[n][k+1][2];
         for(int i = 0 ; i<n; i++){
-            for(int j = k; j>0 ; j--){
+            for(int j = k; j>=1 ; j--){
                 //base case
                 if(i-1 == -1){
                     dp[i][j][0] = 0;
                     dp[i][j][1] = -prices[i];
                     continue;
                 }
-                dp[i][j][0] = Math.max(dp[i-1][j][0],dp[i-1][j][0]+prices[i]);
-                dp[i][j][1] = Math.max(dp[i-1][j][1],dp[i-1][k-1][0] - prices[i]);
+
+                dp[i][j][0] = Math.max(dp[i-1][j][0],dp[i-1][j][1]+prices[i]);
+                dp[i][j][1] = Math.max(dp[i-1][j][1],dp[i-1][j-1][0] - prices[i]);
             }
         }
         return dp[n-1][k][0];
