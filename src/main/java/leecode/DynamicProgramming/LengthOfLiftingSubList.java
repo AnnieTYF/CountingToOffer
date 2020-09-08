@@ -23,6 +23,7 @@ public class LengthOfLiftingSubList {
         if(nums.length < 2){
             return nums.length;
         }
+
         //dp[i] 表示以 nums[i] 结尾的「上升子序列」的长度
          int[] dp = new int[nums.length];
         //初始化，1 个字符显然是长度为 1 的上升子序列
@@ -67,18 +68,18 @@ public class LengthOfLiftingSubList {
         if(nums.length < 2){
             return nums.length;
         }
-        int end = 0;
+        int len = 0;
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
         for(int i = 1; i<nums.length;i++){
-            if(nums[i] > dp[end]){
+            if(nums[i] > dp[len]){
                 //如果有序数组 tail 中存在大于 num 的元素，找到第 1 个，让它变小，
-                //这样我们就找到了一个结尾更小的相同长度的上升子序
-                dp[++end] = nums[i];
+                // //这样我们就找到了一个结尾更小的相同长度的上升子序
+                dp[++len] = nums[i];
             }else{
                 //二分查找
                 int low = 0;
-                int high = end;
+                int high = len;
                 if(low == high){
                     dp[low] = nums[i];
                 }
@@ -95,7 +96,7 @@ public class LengthOfLiftingSubList {
                 dp[low] = nums[i];
             }
         }
-        return end+1;
+        return len+1;
     }
 
     public static void main(String[] args) {

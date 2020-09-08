@@ -14,6 +14,7 @@ public class MinStack {
      */
     Stack<Integer> stack = new Stack<>();
     Stack<Integer> min = new Stack<>();
+    private Stack<Integer> minStack;
     Integer minNum = null;
 
     public void push(int node) {
@@ -28,7 +29,6 @@ public class MinStack {
             stack.push(node);
             min.push(node);
         }
-
     }
 
     public void pop() {

@@ -37,8 +37,7 @@ public class isStringPalindrome {
            }
          return true;
     }
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         String s = "race a car";
         System.out.println(isPalindrome(s));
         String  a="ABCD";
