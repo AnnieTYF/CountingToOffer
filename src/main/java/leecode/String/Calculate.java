@@ -14,7 +14,7 @@ public class Calculate {
             char c = s.charAt(i);
             // 如果是数字，连续读取到 num
             if(Character.isDigit(c)){
-                num = num*10 + (c-'0');
+                num = num* 10 + (c-'0');
             }
             //如果不是数字，就是遇到了下一个符号，之前的数字和符号就要存进栈中
             if(!Character.isDigit(c) && (c !=' ') || i == s.length() - 1){

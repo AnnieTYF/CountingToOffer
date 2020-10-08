@@ -14,23 +14,18 @@ public class eggDrops {
 
     /**
      * 解法一：动态规划+二分法
-     * 我觉得这种题远超我现在的水平，所以看一下官方的思路吧
-     *
      * 很容易想到用动态规划来做这道题，之前也做过这道题。状态可以表示成 (K, N): K 为鸡蛋数和 N 为楼层数。当从第 X
      * 楼扔鸡蛋的时候，要么鸡蛋不碎，状态变成 (K, N-X)，或者碎掉，状态变成 (K-1, X-1)。
      * 动态规划的时间复杂度为 O(KN^2)
-     *但对于这道题其实是不够高效的，可以做地更快。定义 dp(K, N) 为状态 (K, N) 下最多需要的步数。根据以上分析：
-     * dp(K,N)=min（max(dp(K−1,X−1),dp(K,N−X)))
-     * 1≤X≤N
-     * 这里需要注意的是，dp(K,N) 是一个关于 N 的递增函数。在最大式中，第一项T1=dp(K−1,X−1) 是一个随 XX 递增的函数，
-     * 第二项 T2=dp(K,N−X) 也是一个随着 XX 递减的方法。这种情况下是可以用二分搜索去找 X的。
-     *
+     * 但对于这道题其实是不够高效的，可以做的更快。定义 dp(K, N) 为状态 (K, N) 下最多需要的步数。根据以上分析：
+     * dp(K,N)=min（max(dp(K−1,X−1),dp(K,N−X))) 1≤X≤N
+     * 这里需要注意的是，dp(K,N) 是一个关于 N 的递增函数。在最大式中，第一项T1=dp(K−1,X−1) 是一个随 X 递增的函数，
+     * 第二项 T2=dp(K,N−X) 也是一个随着 X 递减的方法。这种情况下是可以用二分搜索去找 X的。
      * 算法
      * 对于一个 X，如果 T1<T2 意味着 X太小了；
      * 如果T1>T2，意味着 X太大了。
      * 时间复杂度：O(K∗NlogN)。
      * 空间复杂度：O(K∗N)
-     * 链接：https://leetcode-cn.com/problems/super-egg-drop/solution/ji-dan
      */
     public int superEggDrop(int K, int N) {
         return dp(K,N);
@@ -78,9 +73,9 @@ public class eggDrops {
     public int superEggDrop2(int K, int N) {
         // Right now, dp[i] represents dp(1, i)
         int[] dp = new int[N+1];
-        for (int i = 0; i <= N; ++i)
+        for (int i = 0; i <= N; ++i) {
             dp[i] = i;
-
+        }
         for (int k = 2; k <= K; ++k) {
             // Now, we will develop dp2[i] = dp(k, i)
             int[] dp2 = new int[N+1];
@@ -90,16 +85,14 @@ public class eggDrops {
                 // Increase our optimal x while we can make our answer better.
                 // Notice max(dp[x-1], dp2[n-x]) > max(dp[x], dp2[n-x-1])
                 // is simply max(T1(x-1), T2(x-1)) > max(T1(x), T2(x)).
-                while (x < n && Math.max(dp[x-1], dp2[n-x]) > Math.max(dp[x], dp2[n-x-1]))
+                while (x < n && Math.max(dp[x-1], dp2[n-x]) > Math.max(dp[x], dp2[n-x-1])) {
                     x++;
-
+                }
                 // The final answer happens at this x.
                 dp2[n] = 1 + Math.max(dp[x-1], dp2[n-x]);
             }
-
             dp = dp2;
         }
-
         return dp[N];
     }
 
@@ -111,10 +104,12 @@ public class eggDrops {
         int lo = 1, hi = N;
         while (lo < hi) {
             int mi = (lo + hi) / 2;
-            if (f(mi, K, N) < N)
+            if (f(mi, K, N) < N) {
                 lo = mi + 1;
-            else
+            }
+            else {
                 hi = mi;
+            }
         }
 
         return lo;
