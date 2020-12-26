@@ -115,4 +115,42 @@ public class CoinChange {
         System.out.println(coinChange2(coins, amount) );
     }
 
+    public int change2(int amount, int[] coins) {
+        int len = coins.length;
+        //若只使用 coins 中的前 i 个硬币的面值，若想凑出金额 j，有 dp[i][j] 种凑法
+        int[][] dp = new int[len+1][amount+1];
+        for(int j = 0; j<= amount; j++){
+            dp[0][j] = 0; //没有选项的时候只有0种方法
+        }
+        for(int i = 0; i<=len ; i++){
+            dp[i][0] = 1; //容量为0的凑数方法为1
+        }
+        for(int i = 1; i<=len ; i++){
+            for(int j = 1; j <= amount ; j++){
+                if(j - coins[i-1] < 0){
+                    dp[i][j] = dp[i-1][j];
+                }else{
+                    //例如想用面值为i=2的硬币凑出5的方法 = 面值为1的硬币凑出5 + 面值为2的硬币凑出 3
+                    dp[i][j] = dp[i-1][j] + dp[i][j-coins[i-1]];
+                }
+            }
+        }
+        return dp[len][amount];
+    }
+    public int change(int amount, int[] coins) {
+        int len = coins.length;
+        //若只使用 coins 中的前 i 个硬币的面值，若想凑出金额 j，有 dp[i][j] 种凑法
+        int[] dp = new int[amount+1];
+        dp[0] = 1;
+        for(int i = 0; i< len ; i++){
+            for(int j = 1; j <= amount ; j++){
+                if(j - coins[i] >= 0){
+                    //例如想用面值为i=2的硬币凑出5的方法 = 面值为1的硬币凑出5 + 面值为2的硬币凑出 3
+                    dp[j] = dp[j] + dp[j-coins[i]];
+                }
+            }
+        }
+        return dp[amount];
+    }
+
 }

@@ -26,23 +26,22 @@ public class SerializeBST {
      *  / \ / \
      * 2  4 6  8
      * {5，3，2，#，4，#，7，6，#，8，#}
-     * @param root
-     * @return
      */
-    public String Serialize(TreeNode root) {
-        StringBuffer str = new StringBuffer();
-         if(root == null){
-             //注意井号后面也要加逗号
-             str.append("#,");
-             return str.toString();
-         }
-         str.append(root.val + ",");
-         str.append(Serialize(root.left));
-         str.append(Serialize(root.right));
-
-         return str.toString();
+    public String serialize(TreeNode root) {
+        StringBuilder str = new StringBuilder();
+        serializeHelp(root,str);
+        return str.toString();
     }
-
+    public void serializeHelp(TreeNode root,StringBuilder str){
+        if(root == null){
+            //注意井号后面也要加逗号
+            str.append("#,");
+            return;
+        }
+        str.append(root.val + ",");
+        serializeHelp(root.left,str);
+        serializeHelp(root.right,str);
+    }
     /**
      * 得到的是前序遍历顺序得字符串
      * {5，3，2，#，4，#，7，6，#，8，#}
@@ -50,16 +49,20 @@ public class SerializeBST {
      * @param str
      * @return
      */
-    private int index=-1;
-    public TreeNode Deserialize(String str) {
-        index++;
+    public TreeNode deserialize(String str) {
         String[] strings = str.split(",");
-        TreeNode node = null;
-        if(!strings[index].equals("#")){
-            node = new TreeNode(Integer.valueOf(strings[index]));
-            node.left = Deserialize(str);
-            node.right = Deserialize(str);
+        return deserializeHelp(strings);
+    }
+    private int index=-1;
+    public TreeNode deserializeHelp(String[] strings){
+        index++;
+        String first = strings[index];
+        if(first.equals("#")){
+            return null;
         }
-       return node;
+        TreeNode root = new TreeNode(Integer.parseInt(first));
+        root.left = deserializeHelp(strings);
+        root.right = deserializeHelp(strings);
+        return root;
     }
 }
